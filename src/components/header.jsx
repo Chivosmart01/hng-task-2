@@ -1,6 +1,7 @@
 import React from 'react'
 import classes from "./header.module.css"
-import main from "../img/main-logo.jpg"
+import desktop from "../img/main-logo.jpg"
+import mobile from "../img/main-logo.jpg"
 import bell from "../img/bell.svg"
 import { IoMdCart } from "react-icons/io";
 
@@ -8,8 +9,11 @@ import { IoMdCart } from "react-icons/io";
 const Header = () => {
   return (
     <div className={classes.header}>
-        <div className= {classes["header-main-logo"]} >
-            <img src={main} alt="" />
+        <div className= {classes["header-main-desktop"]} >
+            <img src={desktop} alt="" />
+        </div>
+        <div className= {classes["header-main-mobile"]} >
+            <img src={mobile} alt="" />
         </div>
         <ul className= {classes["header-links"]}>
             <li className= {classes["header-link"]}><a href="#">Home</a></li>

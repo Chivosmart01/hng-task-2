@@ -12,56 +12,6 @@ import img4 from "../img/slid5.png";
 import img5 from "../img/slid6.png";
 import img6 from "../img/phones.png";
 
-// const BrowseMore = () => {
-//   return (
-
-//       <div className={classes["browse-more-desktop"]}>
-//         <h2 className={classes["browse-more-section-title"]}>
-//           Browse by Category
-//         </h2>
-//         <br />
-//         <Swiper
-//           slidesPerView={5}
-//           centeredSlides={true}
-//           loop={true}
-//           autoplay={{
-//             delay: 1500,
-//             disableOnInteraction: false,
-//             pauseOnMouseEnter: false, // Ensures autoplay doesn't pause when hovered
-//           }}
-//           // pagination={{
-//           //   clickable: true,
-//           // }}
-//           modules={[Autoplay, Pagination]}
-//           className="mySwiper"
-//         >
-//           {datas.map((data, index) => (
-//             <SwiperSlide
-//               key={index}
-//               className={classes["browse-more-section-card"]}
-//             >
-//               <div>
-//                 <img src={data.img} alt={data.title} />
-//               </div>
-//               <h5>{data.title}</h5>
-//             </SwiperSlide>
-//           ))}
-//         </Swiper>
-//       </div>
-//     </div>
-//   );
-// };
-
-// export default BrowseMore;
-
-// import React from "react";
-
-// import { Swiper, SwiperSlide } from "swiper/react";
-
-// Import Swiper styles
-// import "swiper/css";
-
-// import classes from "./browseMore.module.css";
 
 const datas = [
   {
@@ -108,26 +58,10 @@ const BrowseMore = () => {
             disableOnInteraction: false,
             pauseOnMouseEnter: false, // Ensures autoplay doesn't pause when hovered
           }}
-          // pagination={{
-          //   clickable: true,
-          // }}
           modules={[Autoplay, Pagination]}
           className="mySwiper"
           watchSlidesProgress={true}
           breakpoints={{
-            //   0: {
-            //     slidesPerView: 2,
-            //     spaceBetween: 10,
-            //   },
-            // //   768: {
-            // //     slidesPerView: 2,
-            // //     spaceBetween: 10,
-            // //   },
-            //   1024: {
-            //     slidesPerView: 5,
-            //     spaceBetween: 40,
-            //   },
-
             0: {
               slidesPerView: 2,
               spaceBetween: 10,

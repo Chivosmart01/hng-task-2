@@ -1,7 +1,8 @@
 import './App.css'
 import About from './components/about'
 import BrowseMore from './components/browseMore'
-import BrowseMoreMobile from './components/browseMoreMobile'
+import Footer from './components/footer'
+
 import Header from './components/header'
 
 
@@ -13,7 +14,7 @@ function App() {
      <Header />
      <About />
      <BrowseMore />
-     {/* <BrowseMoreMobile /> */}
+     <Footer />
     </>
   )
 }

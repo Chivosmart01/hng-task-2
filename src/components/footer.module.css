@@ -1,0 +1,74 @@
+.footer-section {
+  padding: 3rem 4rem;
+  position: relative;
+  top: 10.5rem;
+  background-color: #056050;
+  color: white;
+}
+
+.footer-lists {
+  display: flex;
+  padding: 3rem 0;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 2rem;
+  list-style: none;
+}
+
+.footer-list {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  list-style: none;
+}
+
+ h5 {
+  font-size: 2.5rem;
+}
+
+.newsletter {
+  margin-top: 2rem;
+}
+
+.email-sec {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.newsletter input {
+  width: 30rem;
+  height: 3.9rem;
+}
+
+.send-icon {
+  background-color: white;
+  border: none;
+}
+
+@media (min-width: 1000px) {
+  .footer-section {
+    padding: 0rem 9rem;
+  }
+
+  .footer-lists {
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: flex-start;
+    max-width: 120rem;
+    margin: auto;
+    text-align: left;
+  }
+
+  .footer-list{
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  .newsletter{
+    margin-top: 0;
+  }
+}
