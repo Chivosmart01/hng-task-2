@@ -1,0 +1,91 @@
+.best-seller-section {
+  background-color: rgba(13, 41, 35, 0.2);
+  background-color: rgba(205, 239, 233, 0.8);
+  margin: 0rem;
+  padding: 3rem 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.best-seller-article {
+}
+
+.best-seller-article h1 {
+  font-size: 2.3rem;
+}
+
+.best-seller-article p {
+  margin: 0.6rem 0;
+}
+
+.shop-now-btn {
+  color: white;
+  background-color: #056050;
+  /* font-size: 1.8rem; */
+  border: none;
+  padding: 0.5rem 1.5rem;
+  border-radius: 2.5rem;
+}
+
+.best-seller-images {
+  position: relative;
+}
+
+.green-circle {
+  width: 100%;
+}
+
+.multiple {
+  position: absolute;
+  top: 3rem;
+  left: 2.9rem;
+  width: 25%;
+}
+
+.green-star {
+  position: absolute;
+  width: 25%;
+  top: 0rem;
+  left: 6.5rem;
+}
+
+.multiple img {
+  width: 100%;
+}
+
+.green-star img {
+  width: 100%;
+}
+
+.green-circle img {
+  width: 70%;
+}
+
+@media (min-width: 500px) {
+  .multiple {
+    position: absolute;
+    top: 5rem;
+    left: 6rem;
+    width: 25%;
+  }
+
+  .green-star {
+    position: absolute;
+    width: 25%;
+    top: 0rem;
+    left: 13.6rem;
+  }
+}
+
+
+@media (min-width: 1000px) {
+  .best-seller {
+    max-width: 115rem;
+    border-radius: 1rem;
+  }
+
+  .best-seller-section {
+    padding: 0rem 9rem;
+  }
+}

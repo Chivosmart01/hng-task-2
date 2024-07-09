@@ -19,9 +19,9 @@ const Header = () => {
 
   return (
     <div className={classes.header}>
-      <div className={classes["header-main-logo"]}>
+      <Link to="/" className={classes["header-main-logo"]}>
         <img src={logo} alt="" />
-      </div>
+      </Link>
       <ul className={classes["header-links"]}>
         <li className={classes["header-link"]}>
           <a href="#">Home</a>

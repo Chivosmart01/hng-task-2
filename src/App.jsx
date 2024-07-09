@@ -5,10 +5,11 @@ import Cart from "./components/cart";
 import Main from "./components/main";
 
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import CartPovider from "./store/CartPovider";
 
 function App() {
   return (
-    <>
+    <CartPovider>
       <BrowserRouter>
         <Header />
         <Routes>
@@ -18,7 +19,7 @@ function App() {
         </Routes>
         <Footer />
       </BrowserRouter>
-    </>
+    </CartPovider>
   );
 }
 

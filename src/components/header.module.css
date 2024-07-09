@@ -47,10 +47,6 @@
     display: none;
 }
 
-/* .header-hamburger-icon img {
-  width: 100%;
-} */
-
 .header-hamburger-icon,
 .header-cart-icon {
   font-size: 20px;
@@ -59,8 +55,12 @@
 
 /* Mobile design adjustments */
 @media (max-width: 1000px) {
+
+    .header-main-logo {
+        width: 150px;
+    }
   .header {
-    padding: 0rem 4rem;
+    padding: 1rem 4rem;
   }
 
   .header-links {
