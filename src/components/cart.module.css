@@ -1,0 +1,160 @@
+.cart-section{
+    padding: 3rem 4rem;
+    /* max-width: 60rem; */
+    margin: 0 auto;
+}
+
+.back-anchor{
+    text-decoration: none;
+    color: #056050  ;
+    display: inline-block;
+    margin-bottom: 5rem;
+}
+
+.cart-title{
+ text-align: center;
+ color: black;
+}
+
+.cart-item-lists{
+    list-style: none;
+    width: 100%;
+}
+
+.cart-item-list{
+    margin-top: 3rem;
+    display: flex;
+    gap: 1rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+th{
+    font-size:2rem ;
+    color: black;
+}
+
+.empty-col{
+    width: 56px;
+}
+
+.cart-item-info{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.cart-item-img{
+    width: 5rem;
+}
+
+.cart-item-img img {
+    width: 100%;
+}
+
+.cart-item-article h4 {
+    color: black;
+}
+
+.cart-item-article span {
+    color: black;
+    font-weight: 700;
+}
+
+.cart-item-input{
+    width: 5rem;
+    height: 3rem;
+}
+
+.cart-item-price {
+display: flex;
+}
+
+.cart-item-price button{
+    margin-left: 2rem;
+    border-radius: 50%;
+    padding: .5rem .7rem;
+    border: none;
+}
+
+.clear-cart-btn{
+    color: white;
+    background-color: #056050 ;
+    font-size: 1.8rem;
+    border: none;
+    padding: 1rem 1.5rem;
+    border-radius: 2.5rem;
+    margin-top: 3rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+
+.clear-cart-btn img {
+    width: 2rem;
+}
+.order-summary{
+    margin-top: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #CDEFE9;
+    width: 25rem;
+    padding:2rem ;
+    margin: 5rem auto ;
+    border-radius: 1rem;
+}
+
+.order-summary h2{
+    
+}
+
+.order-summary li {
+    width: 100%;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 1.8rem;
+    border-bottom: 1px solid black;
+}
+
+.total {
+    padding: 1rem 0;
+}
+
+.checkout-btn{
+    color: white;
+    background-color: #056050 ;
+    font-size: 1.8rem;
+    border: none;
+    padding: 1rem 1.5rem;
+    border-radius: 2.5rem;
+    margin-top: 3rem;
+}
+
+@media (min-width:1000px){
+
+    .cart-section{
+        padding: 3rem 4rem;
+        max-width: 130rem;
+        margin: 0 auto;
+    }
+    .cart{
+        display: flex;
+        flex-basis: 50%;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .cart-item-list{
+        
+        gap: 3rem;
+    }
+
+    .order-summary{
+        margin: 15rem .1rem 5rem  .1rem ;
+    }
+}

@@ -1,6 +1,7 @@
 import './App.css'
 import About from './components/about'
 import BrowseMore from './components/browseMore'
+import Cart from './components/cart'
 import Feature from './components/feature'
 import Footer from './components/footer'
 
@@ -16,6 +17,7 @@ function App() {
      <About />
      <BrowseMore />
      <Feature />
+     {/* <Cart /> */}
      <Footer />
     </>
   )
