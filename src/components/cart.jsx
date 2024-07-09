@@ -3,14 +3,16 @@ import classes from "./cart.module.css";
 import img from "../img/prod6.png";
 import cartIcon from "../img/cart-icon-2.png";
 
+import { Link } from "react-router-dom";
+
 const Cart = () => {
   return (
     <section className={classes["cart-section"]}>
       <div className={classes["cart"]}>
         <div className={classes["cart-side-1"]}>
-          <a href="#" className={classes["back-anchor"]}>
+          <Link to="/" onClick={() => history.push("/")} className={classes["back-anchor"]}>
             Back
-          </a>
+          </Link>
           <h1 className={classes["cart-title"]}>Checkout</h1>
           <table className={classes["cart-item-lists"]}>
             <tr className={classes["cart-item-list"]}>

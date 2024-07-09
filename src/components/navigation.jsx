@@ -1,5 +1,6 @@
 import React from "react";
 import classes from "./navigation.module.css"
+import { Link } from "react-router-dom";
 
 const Navigation = ({isActive , setIsActive}) => {
 
@@ -13,10 +14,10 @@ const Navigation = ({isActive , setIsActive}) => {
     <nav  className={classes.nav}>
         <div className={classes["navigation__cancel"]} onClick={closehamburgerHandler} >X</div>
       <ul className={classes["navigation__list"]}>
-        <li className={classes["navigation__item"]}>
-          <a href="#" class="navigation__link">
+        <li  className={classes["navigation__item"]}>
+          <Link to="/" className={classes["navigation__link"]}>
             Home
-          </a>
+          </Link>
         </li>
         <li className={classes["navigation__item"]}>
           <a href="#" className={classes["navigation__link"]}>

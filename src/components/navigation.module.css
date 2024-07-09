@@ -29,18 +29,22 @@
   width: 100%;
 }
 
-.navigation__list a {
+.navigation__link {
     text-decoration: none;
     font-size: 2.5rem;
     color:#056050 ;
 }
 
-.navigation__list a:hover{
-    color: #000f0d;
-}
 
 .navigation__item {
-  margin: 1rem;
+    margin: 1rem;
+}
+
+.navigation__link {
+    text-decoration: none;
+}
+.navigation__li:hover{
+    color: #000f0d;
 }
 
 

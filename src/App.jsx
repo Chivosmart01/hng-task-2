@@ -1,26 +1,25 @@
-import './App.css'
-import About from './components/about'
-import BrowseMore from './components/browseMore'
-import Cart from './components/cart'
-import Feature from './components/feature'
-import Footer from './components/footer'
+import "./App.css";
+import Header from "./components/header";
+import Footer from "./components/footer";
+import Cart from "./components/cart";
+import Main from "./components/main";
 
-import Header from './components/header'
-
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
- 
-
   return (
     <>
-     <Header />
-     <About />
-     <BrowseMore />
-     <Feature />
-     {/* <Cart /> */}
-     <Footer />
+      <BrowserRouter>
+        <Header />
+        <Routes>
+          <Route exact path="/" element={<Main />} />
+          <Route exact path="/cart" element={<Cart />} />
+          <Route />
+        </Routes>
+        <Footer />
+      </BrowserRouter>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
