@@ -1,9 +1,9 @@
 .feature-section{
-    margin: 2rem 0;
+    /* margin: 2rem 0; */
     padding: 3rem 4rem;
     position: relative;
-    top: 13.5rem;
-    margin-bottom: 17rem;
+    top: 0.5rem;
+    margin-bottom: 5rem;
 }
 
 .feature-section-cards{
@@ -37,7 +37,7 @@
 
 
 
-@media (min-width:410px)  {
+@media (min-width:420px)  {
     .feature-section-card{
         height: 27rem;
     }
@@ -68,7 +68,9 @@
 
 @media (min-width:1000px)  {
     .feature-section{
-        padding: 0rem 10rem;
+        padding: 0rem 10rem 3rem 10rem;
+        max-width: 135rem;
+        margin: auto;
     }
     .feature-section-cards{
        justify-content: space-between;

@@ -1,8 +1,10 @@
-.best-seller-section {
-  background-color: rgba(13, 41, 35, 0.2);
+.best-seller {
   background-color: rgba(205, 239, 233, 0.8);
-  margin: 0rem;
+  margin: 2rem 0rem;
   padding: 3rem 4rem;
+}
+
+.best-seller-section {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -78,14 +80,14 @@
   }
 }
 
-
 @media (min-width: 1000px) {
   .best-seller {
-    max-width: 115rem;
     border-radius: 1rem;
+    padding: 0rem 13.5rem;
   }
 
   .best-seller-section {
-    padding: 0rem 9rem;
+    max-width: 115rem;
+    margin: auto;
   }
 }

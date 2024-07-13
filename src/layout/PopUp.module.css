@@ -1,0 +1,30 @@
+.popup-section{
+    /* width: 20rem; */
+    color: green;
+    border-radius: 20rem;
+    position: fixed;
+    background-color: rgb(231, 229, 229);
+    top: 10rem;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: auto;
+    text-align: center;
+    z-index: 400000000;
+    font-size: 2.1rem;
+    padding: 1rem 2rem;
+    /* animation: moveInTop 0.4s;
+    animation-fill-mode: forwards; */
+}
+
+
+/* @keyframes moveInBottom {
+    0% {
+      opacity: 0;
+      transform: translateY(0rem);
+    }
+  
+    100% {
+        opacity: 1;
+      transform: translateY(10rem);
+    }
+  } */

@@ -1,8 +1,9 @@
 import "./App.css";
-import Header from "./components/header";
-import Footer from "./components/footer";
-import Cart from "./components/cart";
-import Main from "./components/main";
+import Header from "./layout/header";
+import Footer from "./layout/footer";
+import Cart from "./pages/cart";
+// import Main from "./pages/main";
+import Main from "./pages/main";
 
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import CartPovider from "./store/CartPovider";
@@ -11,13 +12,13 @@ function App() {
   return (
     <CartPovider>
       <BrowserRouter>
-        <Header />
+        {/* <Header /> */}
         <Routes>
           <Route exact path="/" element={<Main />} />
           <Route exact path="/cart" element={<Cart />} />
           <Route />
         </Routes>
-        <Footer />
+        {/* <Footer /> */}
       </BrowserRouter>
     </CartPovider>
   );

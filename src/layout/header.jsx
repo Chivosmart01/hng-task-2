@@ -4,9 +4,9 @@ import logo from "../img/header-logo.svg";
 import hamburger from "../img/hamburger.svg";
 // import { IoMdCart } from "react-icons/io";
 import cartIcon from "../img/cart-icon-1.svg";
-import Navigation from "./navigation";
+import Navigation from "../components/navigation";
 
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 const Header = () => {
   const [openNav, setOpenNav] = useState(false);
@@ -23,9 +23,9 @@ const Header = () => {
         <img src={logo} alt="" />
       </Link>
       <ul className={classes["header-links"]}>
-        <li className={classes["header-link"]}>
+        <NavLink to="/" className={classes["header-link"]}>
           <a href="#">Home</a>
-        </li>
+        </NavLink>
         <li className={classes["header-link"]}>
           <a href="#">Category</a>
         </li>
