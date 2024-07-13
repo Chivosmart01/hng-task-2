@@ -20,7 +20,7 @@ const About = () => {
             </div>
             <article className= {classes["about-section-main-article"]}>
                 <h3>T5 Mini Smart Watch</h3>
-                <p>Stay Connected and healthy with our latest smartwatch! Track your workouts, and receive notifications o he go.</p>
+                <p>Stay Connected and healthy with our latest smartwatch! Track your workouts, and receive notifications on the go.</p>
                 <button>Explore Products</button>
             </article>
         </div>
