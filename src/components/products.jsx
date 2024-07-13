@@ -116,6 +116,8 @@ const datas = [
     img: img11,
     title: "Smart Tv",
     price: 15000,
+    color: "white",
+    memory: "256gb",
   },
   {
     id: 12,
@@ -131,12 +133,18 @@ const datas = [
     img: img13,
     title: "Ring Light",
     price: 300,
+    display: "7 inches",
+    color: "Black",
+    memory: "32gb",
   },
   {
     id: 14,
     img: img14,
-    title: "Ear pods",
-    price: 500,
+      title: "Ear pods",
+      price: 500,
+      display: "7 inches",
+      color: "Black",
+      memory: "32gb",
   },
   {
     id: 15,
@@ -194,7 +202,6 @@ const Products = () => {
 
   return (
     <div className={classes["product-section"]}>
-      {/* {isprodSelected && <PopUp />} */}
       <h3 className={classes["product-section-title"]}>Featured Products</h3>
       <div className={classes["product-section-main"]}>
         <ul className={classes["products-lists"]}>

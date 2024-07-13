@@ -16,28 +16,27 @@ import img6 from "../img/phones.png";
 const datas = [
   {
     img: img1,
-    title: "HeadPhones",
+    title: "Smart Watches",
   },
   {
     img: img2,
-    title: "Earpods",
-  },
-  {
-    img: img3,
-    title: "Watches",
-  },
-  {
-    img: img4,
-    title: "Cameras",
-  },
-  {
-    img: img5,
     title: "Phones",
   },
   {
+    img: img3,
+    title: "Camera",
+  },
+  {
+    img: img4,
+    title: "Watches",
+  },
+  {
+    img: img5,
+    title: "Ear Pods",
+  },
+  {
     img: img6,
-    title: "Smart Watches",
-    className: "smartWatch",
+    title: "Phones",
   },
 ];
 
